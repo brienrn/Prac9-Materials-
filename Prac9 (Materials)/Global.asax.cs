@@ -19,6 +19,8 @@ namespace Prac9__Materials_
             Application.Lock();
             Application["ErrorMsg"] += Server.GetLastError().Message;
             Application.UnLock();
+
+
         }
 
     }
